@@ -4,11 +4,13 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule,RoutingModules } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { PhotoComponent } from './photo/photo.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
    RoutingModules,
-   PhotoComponent
+   PhotoComponent,
+   AboutUsComponent
   ],
   imports: [
     BrowserModule,
